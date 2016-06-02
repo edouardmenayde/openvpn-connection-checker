@@ -1,0 +1,22 @@
+{
+  "name": "openvpn-manager",
+  "version": "0.0.1",
+  "description": "An openvpn manager",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Scrunshes/openvpn-connection-checker"
+  },
+  "author": "Scrunshes",
+  "license": "GNUv3",
+  "devDependencies": {
+    "electron-packager": "^7.0.3",
+    "electron-prebuilt": "^1.2.0"
+  },
+  "dependencies": {
+    "iproute": "^0.7.0"
+  }
+}
